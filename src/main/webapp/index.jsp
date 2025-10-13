@@ -4,8 +4,14 @@
 <html>
 <body>
 
-    <h2>Login Page</h2>
+    <h2>Register</h2>
+    <form action="register" method="post">
+        <label>Name : <input type="text" name="name"></label>
+        <label>Password : <input type="password" name="pass"></label>
+        <button type="submit">Register</button>
+    </form>
 
+    <h2>Login</h2>
     <form action="login" method="post">
         <label>Name : <input type="text" name="name"></label>
         <label>Password : <input type="password" name="pass"></label>

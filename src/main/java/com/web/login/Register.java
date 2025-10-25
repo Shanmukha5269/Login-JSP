@@ -20,9 +20,9 @@ public class Register extends HttpServlet {
         try {
             if(dao.register(name,pass))
                 response.sendRedirect("/LoginPage");
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
+            else
+                response.sendRedirect("register.jsp");
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

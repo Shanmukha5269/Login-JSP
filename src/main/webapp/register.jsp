@@ -1,4 +1,7 @@
 <html>
+</head>
+<link rel="stylesheet" href="register.css">
+</head>
 <body>
 
     <h2>Register</h2>

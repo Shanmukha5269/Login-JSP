@@ -2,6 +2,9 @@
 <%@ include file="header.jsp" %>
 
 <html>
+</head>
+<link rel="stylesheet" href="login.css">
+</head>
 <body>
 
     <h2>Login</h2>
